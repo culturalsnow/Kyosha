@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Kyosha-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1023,27 +1024,27 @@ $EndComp
 Text GLabel 5500 6050 2    50   Input ~ 0
 reset
 NoConn ~ 5850 4100
-Text GLabel 4450 4700 0    50   Input ~ 0
+Text GLabel 5850 4500 2    50   Input ~ 0
 row0
-Text GLabel 4450 4800 0    50   Input ~ 0
-row1
-Text GLabel 4450 4900 0    50   Input ~ 0
-row2
-Text GLabel 4450 4500 0    50   Input ~ 0
-col0
-Text GLabel 4450 4600 0    50   Input ~ 0
-col1
 Text GLabel 5850 4600 2    50   Input ~ 0
-col2
+row1
+Text GLabel 4450 4200 0    50   Input ~ 0
+row2
+Text GLabel 4450 4100 0    50   Input ~ 0
+col0
 Text GLabel 5850 4700 2    50   Input ~ 0
+col1
+Text GLabel 4450 4500 0    50   Input ~ 0
+col2
+Text GLabel 4450 4600 0    50   Input ~ 0
 col3
-Text GLabel 5850 4800 2    50   Input ~ 0
+Text GLabel 4450 4700 0    50   Input ~ 0
 col4
-Text GLabel 4450 5000 0    50   Input ~ 0
+Text GLabel 4450 4800 0    50   Input ~ 0
 col5
-Text GLabel 4450 5200 0    50   Input ~ 0
-col7
 Text GLabel 4450 5100 0    50   Input ~ 0
+col7
+Text GLabel 4450 5200 0    50   Input ~ 0
 col6
 Text GLabel 5850 5000 2    50   Input ~ 0
 col10
@@ -1051,8 +1052,8 @@ Text GLabel 5850 5100 2    50   Input ~ 0
 col9
 Text GLabel 5850 5200 2    50   Input ~ 0
 col8
-NoConn ~ 5850 4500
-NoConn ~ 4450 4200
-NoConn ~ 4450 4100
 NoConn ~ 5850 4900
+NoConn ~ 5850 4800
+NoConn ~ 4450 4900
+NoConn ~ 4450 5000
 $EndSCHEMATC
